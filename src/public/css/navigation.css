@@ -32,8 +32,28 @@
 
 .navItemHome{
   grid-area: 2/2/3/4;
-
 }
 .navItemSearch{
   grid-area: 3/2/3/4;
+}
+.navSearch{
+  cursor: pointer;
+} 
+.navHome{
+  cursor: pointer;
+}
+.homeClick{
+  color: white; 
+} 
+.searchClick{ 
+  color: white; 
+}
+.homeHover{
+  color: white;
+}
+.searchHover{
+  color: white;
+}
+.defaultHome{
+  color: white; 
 }
