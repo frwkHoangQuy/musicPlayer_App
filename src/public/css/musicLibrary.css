@@ -61,10 +61,10 @@
 .libraryIconPlus:hover i{
   color: white;
   background-color: rgb(25,25,25);
-  padding-top: 15%;
-  padding-bottom: 15%;
-  padding-right: 17%;
-  padding-left: 17%;
+  padding-top: 12%;
+  padding-bottom: 13%;
+  padding-right: 14%;
+  padding-left: 14%;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -85,8 +85,11 @@
   margin-right: 2.5px;
   border-radius: 20px;
   background-color: rgb(35, 35, 35);
+  cursor: pointer;
 }
-
+.defaultElementSong{
+  color: white; 
+}
 .libraryElementFavourite {
   display: flex;
   align-items: center;
@@ -96,6 +99,19 @@
   margin-right: 2.5px;
   border-radius: 20px;
   background-color: rgb(35, 35, 35);
+  cursor: pointer;
+}
+
+.libraryElementClick{
+  color: white; 
+  cursor: pointer;
+}
+.libraryElementFavouriteClick{
+  color: white;
+  cursor: pointer;
+}
+.libraryHoverClass{
+  color: white; 
 }
 
 .libraryIconSearch {
